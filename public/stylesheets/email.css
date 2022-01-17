@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    height: 430vh;
+    width: 60%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 8px;
+}
+
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+
+.textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-left: 75px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color:  rgb(39, 146, 39); 
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease background-color;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(53, 185, 53);
+    color: white; 
+    cursor: pointer;
+}
+
+#status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+button[type="button1"] {
+    width: 64%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-left: 140px;
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: bold;
+    background-color:  rgb(39, 146, 39); 
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease background-color;
+}
+
+button[type="button1"]:hover {
+    background-color: rgb(53, 185, 53);
+    color: white; 
+    cursor: pointer;
+}
+

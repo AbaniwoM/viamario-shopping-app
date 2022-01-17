@@ -1,0 +1,91 @@
+.wrap {
+    position: relative;
+}
+
+.row {
+    height: 100vh; 
+    width:137%; 
+    margin-left: -207px; 
+    background: url(/images/she-shop.jpg); 
+    background-repeat:no-repeat; 
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    width: 137%; 
+    height: 100vh; 
+    background: rgba(50, 50, 50, 0.5);
+}
+
+.content-body {
+    height: 97vh; 
+    width: 35%; 
+    margin-left: 130px; 
+    margin-top: 10px; 
+    position: fixed; 
+    background: rgba(50, 50, 50, 0.5);
+}
+
+.head {
+    font-size: 1.6rem; 
+    font-weight: bold; 
+    color: rgb(250, 239, 239); 
+    margin-top: -10px;
+}
+
+form {
+    position: relative;
+}
+
+.form-group {
+    font-size: 0.9rem;
+}
+
+label {
+    color: rgb(250, 239, 239); 
+    font-weight: bold;
+}
+
+input {
+    font-size: 0.9rem;
+}
+
+.register-btn {
+    font-size: 1rem; 
+    font-weight: bold;
+}
+
+.have {
+    display: flex; 
+    margin-top: -10px;
+}
+
+.log {
+    font-size: 1rem; 
+    color: rgb(250, 239, 239); 
+    font-weight: bold;
+}
+
+.log a {
+    font-size: 1rem; 
+    font-weight: bold;
+}
+
+.return {
+    display: flex;
+    margin-left: 195px;
+}
+
+.backward {
+    margin-top: 27px; 
+    font-size: 1rem; 
+    color: rgb(250, 239, 239);
+}
+
+.back {
+    margin-left: 5px; 
+    font-size: 1rem; 
+    font-weight: bold;
+}

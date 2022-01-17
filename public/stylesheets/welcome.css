@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.cardbox{
+    display: flex;
+    margin-top: 90px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -290px;
+    width: 40%;
+    position: fixed; 
+    background: rgba(50, 50, 50, 0.5); 
+    border: none; z-index: 2;
+}
+
+.mario {
+    font-size: 3.6rem; 
+    font-family: 'Lobster', cursive; 
+    margin-top: 20px;
+    color: rgb(250, 239, 239);
+}
+
+.slideshow { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow li { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 50s linear infinite; 
+}
+
+.slideshow li:nth-child(1) { 
+    background-image: url('/images/ecommerce-bg.jpg');
+}
+
+.slideshow li:nth-child(2) { 
+    background-image: url('/images/shop.jpg');
+    animation-delay: 10s; 
+}
+
+.slideshow li:nth-child(3) { 
+    background-image: url('/images/new-arrivals.jpg');
+    animation-delay: 20s; 
+}
+
+.slideshow li:nth-child(4) { 
+    background-image: url('/images/shopping.jpg');
+    animation-delay: 30s; 
+}
+
+.slideshow li:nth-child(5) { 
+    background-image: url('/images/we-shop.jpg');
+    animation-delay: 40s; 
+}
+
+@keyframes imageAnimation { 
+    0% { 
+      opacity: 0; 
+      animation-timing-function: ease-in;
+    }
+    10% {
+      opacity: 1;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      opacity: 1
+    }
+    30% {
+      opacity: 0
+    }
+}
+
+.line {
+    width: 35em;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 0.8rem;
+    top: 15%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 420px; 
+    margin-left: 60px; 
+    color: rgb(250, 239, 239); 
+    position: fixed;
+}
+
+.logo {
+    display: flex; 
+    margin-left: 125px; 
+    margin-top: -45px; 
+    position: fixed;
+}
+
+.logo-img {
+    width: 25%; 
+    height: 13vh; 
+    margin-top: 24px; 
+    margin-right: 8px; 
+    border-radius: 10px;
+}
+
+.login {
+    font-size: 1.1rem; 
+    font-weight: bold; 
+    margin-top: 70px; 
+    color: white;
+}
+
+.btn {
+    width: 94%; 
+    margin-left: 14px;
+    margin-top: 40px;
+    height: 6vh;
+    font-weight: bold;
+}
+
+.btn a {
+    font-weight: bold;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.btn2 {
+    width: 94%; 
+    margin-left: 14px;
+    height: 6vh;
+    padding-top: 9px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.btn2 a {
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.simply {
+    font-style: italic; 
+    font-weight: bold; 
+    margin-left: 20px; 
+    margin-top: 35px; 
+    color:  rgb(250, 239, 239);
+}
+
+.content {
+    margin-top: 60px;
+    height: 60vh;
+}
+
+.line h1 {
+    font-size: 1.2rem;
+    font-family: 'Courgette', cursive;
+}
+
+.anim-typewriter {
+    animation: typewriter 12s steps(40) 1s 5 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 35em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: transparent;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* Responsiveness */
+@media (max-width: 320px) {
+    .cardbox {
+        margin-left: -127px;
+        width: 80%;
+        margin-top: 58px;
+    }
+
+    .mario {
+        font-size: 2rem;
+        margin-top: 23px;
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    .simply {
+        font-size: 0.7rem;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .login {
+        font-size: 0.8rem;
+        margin-top: 60px;
+    }
+
+    .line {
+        margin-top: 340px;
+        margin-left: -5px;
+        width: 17.7em;
+    }
+
+    .line h1 {
+        font-size: 0.6rem;
+    }
+
+    .logo-img {
+        width: 27%;
+        height: 9vh;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 17.7em;
+        }
+    }
+
+    .btn {
+        margin-left: 6px;
+        padding-top: 2px;
+    }
+
+    .btn a {
+        font-size: 0.9rem;
+    }
+
+    .btn2 {
+        margin-left: 6px;
+        padding-top: 2px;
+    }
+
+    .btn2 a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+    .cardbox {
+        margin-left: -150px;
+        width: 80%;
+        margin-top: 58px;
+    }
+
+    .mario {
+        font-size: 2rem;
+        margin-top: 23px;
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .logo {
+        margin-left: 32px;
+    }
+
+    .simply {
+        font-size: 0.7rem;
+        margin-top: 10px;
+        margin-left: 26px;
+    }
+
+    .login {
+        font-size: 0.8rem;
+        margin-top: 60px;
+    }
+
+    .line {
+        margin-top: 340px;
+        margin-left: 0px;
+        width: 20.5em;
+    }
+
+    .line h1 {
+        font-size: 0.7rem;
+    }
+
+    .logo-img {
+        width: 27%;
+        height: 9vh;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 20.5em;
+        }
+    }
+
+    .btn {
+        margin-left: 6px;
+        padding-top: 2px;
+    }
+
+    .btn a {
+        font-size: 0.9rem;
+    }
+
+    .btn2 {
+        margin-left: 6px;
+        padding-top: 2px;
+    }
+
+    .btn2 a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+    .cardbox {
+        margin-left: -170px;
+        width: 80%;
+        margin-top: 58px;
+    }
+
+    .mario {
+        font-size: 2rem;
+        margin-top: 23px;
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .simply {
+        font-size: 0.7rem;
+        margin-top: 10px;
+        margin-left: 22px;
+    }
+
+    .login {
+        font-size: 0.8rem;
+        margin-top: 60px;
+        margin-left: -3px;
+    }
+
+    .line {
+        margin-top: 340px;
+        margin-left: 0px;
+        width: 23.5em;
+    }
+
+    .line h1 {
+        font-size: 0.8rem;
+    }
+
+    .logo-img {
+        width: 27%;
+        height: 9vh;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 23.5em;
+        }
+    }
+
+    .btn {
+        margin-left: 6px;
+        padding-top: 2px;
+    }
+
+    .btn a {
+        font-size: 0.9rem;
+    }
+
+    .btn2 {
+        margin-left: 6px;
+        padding-top: 2px;
+    }
+
+    .btn2 a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+    .cardbox {
+        margin-left: -310px;
+        width: 80%;
+        margin-top: 90px;
+    }
+
+    .mario {
+        font-size: 2.8rem;
+        margin-top: 23px;
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .logo {
+        margin-left: 165px;
+    }
+
+    .simply {
+        font-size: 0.9rem;
+        margin-top: 25px;
+        margin-left: 45px;
+    }
+
+    .login {
+        font-size: 1.1rem;
+        margin-top: 80px;
+        margin-left: -3px;
+    }
+
+    .line {
+        margin-top: 430px;
+        margin-left: 60px;
+        width: 32em;
+    }
+
+    .line h1 {
+        font-size: 1.1rem;
+    }
+
+    .logo-img {
+        width: 27%;
+        height: 9vh;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 32em;
+        }
+    }
+
+    .btn {
+        margin-left: 6px;
+        padding-top: 5px;
+    }
+
+    .btn a {
+        font-size: 1.1rem;
+    }
+
+    .btn2 {
+        margin-left: 6px;
+        padding-top: 9px;
+    }
+
+    .btn2 a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .cardbox {
+        margin-left: -410px;
+        width: 80%;
+        margin-top: 155px;
+    }
+
+    .mario {
+        font-size: 3.8rem;
+        margin-top: 23px;
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .content {
+        margin-top: 90px;
+    }
+
+    .logo {
+        margin-left: 210px;
+    }
+
+    .simply {
+        font-size: 1.2rem;
+        margin-top: 38px;
+        margin-left: 42px;
+    }
+
+    .login {
+        font-size: 1.4rem;
+        margin-top: 120px;
+        margin-left: -3px;
+    }
+
+    .line {
+        margin-top: 620px;
+        margin-left: 92px;
+        width: 43.4em;
+    }
+
+    .line h1 {
+        font-size: 1.5rem;
+    }
+
+    .logo-img {
+        width: 27%;
+        height: 9vh;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 43.4em;
+        }
+    }
+
+    .btn {
+        margin-left: 20px;
+        padding-top: 13px;
+    }
+
+    .btn a {
+        font-size: 1.3rem;
+    }
+
+    .btn2 {
+        margin-left: 20px;
+        padding-top: 15px;
+    }
+
+    .btn2 a {
+        font-size: 1.2rem;
+    }
+}

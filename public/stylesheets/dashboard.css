@@ -1,0 +1,198 @@
+.dash {
+    width: 50em;
+    border-right: 2px solid rgba(12, 10, 10, 0.75);
+    position: absolute;
+    top: 15%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dash h1 {
+    font-size: 1.5rem;
+    /* text-transform: uppercase; */
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.dash-typewriter {
+    animation: typewriter2 6s steps(40) 1s 1 normal both,
+    blinkTextCursor2 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50em;
+    }
+}
+
+@keyframes blinkTextCursor2 {
+    from {
+        border-right-color: transparent;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.shop {
+    width: 50em;
+    border-right: 2px solid rgba(12, 10, 10, 0.75);
+    position: absolute;
+    top: 15%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.shop h1 {
+    font-size: 1.5rem;
+    /* text-transform: uppercase; */
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.shop-typewriter {
+    animation: typewriter3 7s steps(30) 6s 1 normal both,
+    blinkTextCursor3 500ms steps(30) infinite normal;
+}
+
+@keyframes typewriter3 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50em;
+    }
+}
+
+@keyframes blinkTextCursor3 {
+    from {
+        border-right-color: transparent;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.good {
+    width: 50em;
+    border-right: 2px solid rgba(12, 10, 10, 0.75);
+    position: absolute;
+    top: 15%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.good h1 {
+    font-size: 1.5rem;
+    /* text-transform: uppercase; */
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.good-typewriter {
+    animation: typewriter4 8s steps(40) 11s 1 normal both,
+    blinkTextCursor4 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter4 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50em;
+    }
+}
+
+@keyframes blinkTextCursor4 {
+    from {
+        border-right-color: transparent;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.foot {
+    width: 50em;
+    border-right: 2px solid rgba(12, 10, 10, 0.75);
+    position: relative;
+    top: 15%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.foot h1 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    /* text-transform: uppercase; */
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.foot-typewriter {
+    animation: typewriter5 8s steps(40) 11s 10 normal both,
+    blinkTextCursor5 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter5 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 40em;
+    }
+}
+
+@keyframes blinkTextCursor5 {
+    from {
+        border-right-color: transparent;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.row1 {
+    max-height: 100vh;
+    border: none;
+    padding-right: 90px;
+    display: flex;
+    margin-top: -30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.row1::-webkit-scrollbar {
+    width: 0;
+}
+
+.row2 {
+    max-height: 100vh;
+    border: none;
+    padding-right: 90px;
+    display: flex;
+    margin-top: -30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.row2::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 320px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .cover {
+        width: 100%;
+    }
+}
+
