@@ -59,9 +59,7 @@ app.use( express.static( "public" ) );
 app.use('/', require('./routes/index'));
 app.use('/users', require('./routes/users'));
 
-const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, console.log(`Server is running on port ${PORT}`));
 
 require("dotenv").config();
 
@@ -102,3 +100,7 @@ app.post("/create-checkout-session", async (req, res) => {
         res.status(500).json({ error: e.message })
     }
 })
+
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, console.log(`Server is running on port ${PORT}`));
