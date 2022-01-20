@@ -1,10 +1,7 @@
-.wrap {
-    position: relative;
-}
-
 .row {
     height: 100vh; 
-    width:137%; 
+    width: 106%; 
+    position: fixed;
     margin-left: -207px; 
     background: url(/images/she-shop.jpg); 
     background-repeat:no-repeat; 
@@ -12,7 +9,7 @@
 }
 
 .overlay {
-    position: absolute; 
+    position: relative; 
     bottom: 0; 
     width: 137%; 
     height: 100vh; 
@@ -21,26 +18,37 @@
 
 .content-body {
     height: 97vh; 
-    width: 35%; 
-    margin-left: 130px; 
+    width: 70%; 
+    margin-left: 160px; 
     margin-top: 10px; 
-    position: fixed; 
+    position: relative; 
     background: rgba(50, 50, 50, 0.5);
 }
 
 .head {
-    font-size: 1.6rem; 
+    font-size: 1.4rem; 
     font-weight: bold; 
     color: rgb(250, 239, 239); 
     margin-top: -10px;
 }
 
+input::placeholder {
+    font-size: 0.8rem;
+}
+
 form {
     position: relative;
+    margin-top: -8px;
+}
+
+.form-control {
+    height: 5vh;
 }
 
 .form-group {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-top: 6px;
 }
 
 label {
@@ -53,24 +61,57 @@ input {
 }
 
 .register-btn {
-    font-size: 1rem; 
+    font-size: 1rem;
+    width: 70%;
+    height: 5vh;
+    border: none;
+    outline: none;
+    padding: 4px;
+    margin-left: 64px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s ease background-color;
+}
+
+.reg {
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
 .have {
     display: flex; 
-    margin-top: -10px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.mes {
+    height: 5vh; 
+    width: 89%; 
+    margin-left: 20px;
+}
+
+.close {
+    margin-top: -9px;
 }
 
 .log {
-    font-size: 1rem; 
+    font-size: 0.8rem; 
     color: rgb(250, 239, 239); 
     font-weight: bold;
 }
 
 .log a {
-    font-size: 1rem; 
+    font-size: 0.8rem; 
     font-weight: bold;
+    text-decoration: none;
+}
+
+.err {
+    margin-top: -8px; 
+    font-size: 0.9rem;
 }
 
 .return {
@@ -80,12 +121,406 @@ input {
 
 .backward {
     margin-top: 27px; 
-    font-size: 1rem; 
+    font-size: 0.8rem; 
     color: rgb(250, 239, 239);
 }
 
 .back {
     margin-left: 5px; 
-    font-size: 1rem; 
+    font-size: 0.8rem; 
     font-weight: bold;
+}
+
+.back a {
+    text-decoration: none;
+}
+
+/* Responsiveness */
+@media (max-width: 320px) {
+    .row {
+        width: 160%;
+    }
+
+    .content-body {
+        width: 55%;
+        margin-left: 203px;
+    }
+
+    .head {
+        font-size: 0.9rem;
+    }
+
+    .mes {
+        width: 100%;
+        margin-left: 1px;
+        height: 7vh;
+        padding-bottom: 5px;
+    }
+
+    .err {
+        font-size: 10px;
+    }
+
+    .close {
+        font-size: 1.1rem;
+    }
+
+    .form-group {
+        font-size: 10px;
+        margin-top: -7px;
+        margin-left: 9px;
+    }
+
+    form {
+        margin-top: -5px;
+    }
+    
+    input::placeholder {
+        font-size: 0.7rem;
+    }
+
+    .register-btn {
+        margin-left: 34px;
+    }
+
+    .log {
+        font-size: 0.6rem;
+        margin-left: -8px;
+    }
+
+    .log a {
+        font-size: 0.6rem;
+    }
+
+    .back {
+        font-size: 0.6rem;
+    }
+
+    .backward {
+        font-size: 0.6rem;
+    }
+
+    .return {
+        margin-left: 40px;
+    }
+
+    .reg {
+        font-size: 0.7rem;
+        padding-bottom: 2px;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+    .row {
+        width: 160%;
+    }
+
+    .content-body {
+        width: 55%;
+        margin-left: 207px;
+    }
+
+    .head {
+        font-size: 1rem;
+    }
+
+    .mes {
+        width: 100%;
+        margin-left: 0px;
+        height: 8vh;
+        padding-bottom: 5px;
+    }
+
+    .err {
+        font-size: 10px;
+    }
+
+    .close {
+        font-size: 1.1rem;
+    }
+
+    .form-group {
+        font-size: 10px;
+        margin-top: -7px;
+        margin-left: 13px;
+    }
+
+    form {
+        margin-top: -2px;
+    }
+    
+    input::placeholder {
+        font-size: 0.7rem;
+    }
+
+    .register-btn {
+        margin-left: 40px;
+    }
+
+    .log {
+        font-size: 0.6rem;
+        margin-left: -8px;
+    }
+
+    .log a {
+        font-size: 0.6rem;
+    }
+
+    .back {
+        font-size: 0.6rem;
+    }
+
+    .backward {
+        font-size: 0.6rem;
+    }
+
+    .return {
+        margin-left: 85px;
+    }
+
+    .reg {
+        font-size: 0.7rem;
+        padding-bottom: 2px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+    .row {
+        width: 160%;
+    }
+
+    .content-body {
+        width: 55%;
+        margin-left: 210px;
+    }
+
+    .head {
+        font-size: 1rem;
+    }
+
+    .mes {
+        width: 100%;
+        margin-left: 0px;
+        height: 8vh;
+        padding-bottom: 5px;
+    }
+
+    .err {
+        font-size: 10px;
+    }
+
+    .close {
+        font-size: 1.1rem;
+    }
+
+    .form-group {
+        font-size: 10px;
+        margin-top: -7px;
+        margin-left: 13px;
+    }
+
+    form {
+        margin-top: -2px;
+    }
+    
+    input::placeholder {
+        font-size: 0.7rem;
+    }
+
+    .register-btn {
+        margin-left: 43px;
+    }
+
+    .log {
+        font-size: 0.6rem;
+        margin-left: -8px;
+    }
+
+    .log a {
+        font-size: 0.6rem;
+    }
+
+    .back {
+        font-size: 0.6rem;
+    }
+
+    .backward {
+        font-size: 0.6rem;
+    }
+
+    .return {
+        margin-left: 129px;
+    }
+
+    .reg {
+        font-size: 0.7rem;
+        padding-bottom: 2px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+    .row {
+        width: 160%;
+    }
+
+    .content-body {
+        width: 85%;
+        margin-left: -14px;
+        height: 90vh;
+        margin-top: 35px;
+    }
+
+    .head {
+        font-size: 1.2rem;
+    }
+
+    .mes {
+        width: 100%;
+        margin-left: 0px;
+        height: 5vh;
+        padding-bottom: 5px;
+    }
+
+    .err {
+        font-size: 13px;
+        margin-top: -5px;
+    }
+
+    .close {
+        font-size: 1.3rem;
+        margin-top: -5px;
+    }
+
+    .form-group {
+        font-size: 12px;
+        margin-top: -7px;
+        margin-left: 20px;
+    }
+
+    form {
+        margin-top: 4px;
+    }
+    
+    input::placeholder {
+        font-size: 0.9rem;
+    }
+
+    .register-btn {
+        margin-left: 62px;
+    }
+
+    .log {
+        font-size: 0.8rem;
+        margin-left: 0px;
+    }
+
+    .log a {
+        font-size: 0.8rem;
+    }
+
+    .back {
+        font-size: 0.8rem;
+    }
+
+    .backward {
+        font-size: 0.8rem;
+    }
+
+    .return {
+        margin-left: 200px;
+    }
+
+    .reg {
+        font-size: 0.9rem;
+        padding-bottom: 2px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .row {
+        width: 160%;
+    }
+
+    .content-body {
+        width: 90%;
+        margin-left: -107px;
+        height: 85vh;
+        margin-top: 80px;
+    }
+
+    .head {
+        font-size: 1.7rem;
+        margin-top: 20px;
+    }
+
+    .mes {
+        width: 100%;
+        margin-left: 0px;
+        height: 5vh;
+        padding-bottom: 5px;
+        border-radius: 6px;
+        margin-top: 5px;
+    }
+
+    .err {
+        font-size: 20px;
+        margin-top: -5px;
+    }
+
+    .close {
+        font-size: 1.5rem;
+        margin-top: -1px;
+    }
+
+    .form-group {
+        font-size: 17px;
+        margin-top: -7px;
+        margin-left: 30px;
+    }
+
+    form {
+        margin-top: 6px;
+    }
+
+    .form-control {
+        border-radius: 6px;
+    }
+    
+    input::placeholder {
+        font-size: 1.2rem;
+    }
+
+    .register-btn {
+        margin-left: 98px;
+    }
+
+    .log {
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+
+    .have {
+        margin-top: 8px;
+    }
+
+    .log a {
+        font-size: 1.2rem;
+    }
+
+    .back {
+        font-size: 1.2rem;
+    }
+
+    .backward {
+        font-size: 1.2rem;
+    }
+
+    .return {
+        margin-left: 290px;
+    }
+
+    .reg {
+        font-size: 1.2rem;
+        padding-bottom: 2px;
+    }
 }

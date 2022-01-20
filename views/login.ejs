@@ -1,16 +1,14 @@
-<div style="position: relative;">
-<div class="row" style="height: 100vh; width:137%; margin-left: -207px; background: url(/images/dream.jpg); background-size: cover;">
-  <div style="position: absolute; bottom: 0; width: 137%; height: 100vh; background: rgba(50, 50, 50, 0.5);">
-    <div class="col-md-6 m-auto">
-      <div class="card card-body" style="width: 76%; margin-left: 130px; margin-top: 140px; background: rgba(50, 50, 50, 0.5); border: none;">
-        <h1 class="text-center mb-3" style="font-size: 1.8rem; font-weight: bold; color:rgb(250, 239, 239);"><i class="fas fa-sign-in-alt"></i>  Login</h1>
+<div class="row2">
+  <div class="overlay2">
+      <div class="house">
+        <h1 class="log-head text-center mb-3"><i class="fas fa-sign-in-alt"></i>  Login</h1>
         <% if(typeof errors != 'undefined') { %>
           <% errors.forEach(function(error) { %>
-            <div class="alert alert-warning alert-dismissible fade show" role="alert" style="height: 5vh;">
-              <div style="margin-top: -8px; font-size: 0.9rem;">
+            <div class="mes2 alert alert-warning alert-dismissible fade show" role="alert">
+              <div class="not">
               <%= error.msg %>
               </div>
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close" style="margin-top: -12px;">
+              <button type="button" class="close2" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
@@ -18,7 +16,7 @@
         <% } %>
         
         <% if(success_msg != '') { %>
-          <div class="alert alert-success alert-dismissible fade show" role="alert" style="height: 5vh;">
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
             <div style="margin-top: -8px; font-size: 0.9rem;">
             <%= success_msg %>
             </div>
@@ -49,11 +47,10 @@
             </button>
           </div>
         <% } %>
-        <form action="/users/login" method="POST" style="margin-left: 30px;">
-          <div class="form-group" style="font-size: 0.9rem;">
-            <label for="email" style="color: rgb(250, 239, 239); font-weight: bold;">Email</label>
+        <form class="form2" action="/users/login" method="POST">
+          <div class="form-group2">
+            <label class="label2" for="email">Email</label>
             <input
-              style="font-size: 0.9rem;"
               type="email"
               id="email"
               name="email"
@@ -61,10 +58,9 @@
               placeholder="Enter Email"
             />
           </div>
-          <div class="form-group" style="font-size: 0.9rem;">
-            <label for="password" style="color: rgb(250, 239, 239); font-weight: bold;">Password</label>
+          <div class="form-group2">
+            <label class="label2" for="password">Password</label>
             <input
-              style="font-size: 0.9rem;"
               type="password"
               id="password"
               name="password"
@@ -72,19 +68,17 @@
               placeholder="Enter Password"
             />
           </div>
-          <button type="submit" class="btn btn-primary btn-block" style="font-size: 1rem; font-weight: bold; margin-left: 50px;">Login</button>
+          <button class="logibt mt-5 pt-1 btn btn-primary btn-block">Login</button>
         </form>
-        <div style="display: flex; width:140%;">
-        <p class="lead mt-4" style="font-size: 1rem; color: rgb(250, 239, 239); font-weight: bold;">
-          No Account? <a href="/users/register" style="font-size: 1rem; font-weight: bold;">Register</a>
+        <div class="final">
+        <p class="lead mt-4 fin-text">
+          No Account? <a href="/users/register" class="fin-reg">Register</a>
         </p>
-        <div style="display: flex; margin-left: 234px;">
-        <h3 style="margin-top: 27px; font-size: 1rem; color: rgb(250, 239, 239);"><i class="fas fa-backward"></i></h3>
-        <p class="lead mt-4" style="margin-left: 5px; font-size: 1rem; font-weight: bold;"><a href="/users/welcome">Back</a></p>
+        <div class="prev">
+        <h3 class="prev-btn"><i class="fas fa-backward"></i></h3>
+        <p class="lead mt-4 back-txt"><a class="bckln" href="/users/welcome">Back</a></p>
         </div>
         </div>
-      </div>
       </div>
     </div>
-</div>
 </div>

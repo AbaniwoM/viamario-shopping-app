@@ -1,0 +1,422 @@
+.row2 {
+    height: 100vh; 
+    width: 120%; 
+    position: fixed;
+    background: url(/images/dream.jpg); 
+    background-repeat:no-repeat; 
+    background-size: cover;
+    bottom: 0px;
+    margin-left: -200px;
+
+}
+
+.overlay2 {
+    position: fixed; 
+    bottom: 0; 
+    width: 150%;
+    height: 100vh; 
+    background: rgba(50, 50, 50, 0.5);
+}
+
+.mes2 {
+    height: 5vh; 
+    width: 39%; 
+    margin-left: 20px;
+    position: fixed;
+}
+
+.not {
+    margin-top: -8px; 
+    font-size: 0.9rem;
+}
+
+.close2 {
+    margin-top: -12px;
+}
+
+.house {
+    width: 25%; 
+    height: 70vh; 
+    margin-left: 510px; 
+    margin-top: 100px; 
+    background: rgba(50, 50, 50, 0.5); 
+    border: none;
+    padding-top: 35px;
+}
+
+.log-head {
+    font-size: 2rem; 
+    font-weight: bold; 
+    color:rgb(250, 239, 239);   
+}
+
+.form2 {
+    margin-left: 45px;
+    width: 82%;
+}
+
+.form-group2 {
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+
+.label2 {
+    color: rgb(250, 239, 239); 
+    font-weight: bold;
+}
+
+.final {
+    display: flex; 
+    width:140%;
+}
+
+.fin-text {
+    font-size: 0.9rem; 
+    color: rgb(250, 239, 239); 
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.fin-text a {
+    text-decoration: none;
+}
+
+.fin-reg {
+    font-size: 0.9rem; 
+    font-weight: bold;
+}
+
+.prev {
+    display: flex; 
+    margin-left: 210px;
+} 
+
+.prev-btn {
+    margin-top: 27px; 
+    font-size: 0.9rem; 
+    color: rgb(250, 239, 239);
+}
+
+.back-txt {
+    margin-left: 5px; 
+    font-size: 0.9rem; 
+    font-weight: bold;
+}
+
+.back-txt a {
+    text-decoration: none;
+}
+
+.logibt {
+    font-size: 1rem;
+    width: 70%;
+    height: 6vh;
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin-left: 64px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s ease background-color;
+}
+
+/* Responsiveness */
+@media (max-width: 320px) {
+    .house {
+        margin-left: 217px;
+        width: 50%;
+        margin-top: 80px;
+    }
+    
+    .row2 {
+        width: 160%;
+    }
+
+    .overlay2 {
+        width: 160%;
+    }
+
+    .form2 {
+        margin-left: 22px;
+    }
+
+    .log-head {
+        font-size: 1.5rem;
+        margin-left: -5px;
+    }
+
+    .logibt {
+        margin-left: 31px;
+        font-size: 0.9rem;
+    }
+
+    .label2 {
+        font-size: 0.7rem;
+    }
+
+    .fin-text {
+        font-size: 0.7rem;
+    }
+
+    .fin-reg {
+        font-size: 0.7rem;
+    }
+
+    .prev {
+        margin-left: 45px;
+    }
+
+    .prev-btn {
+        font-size: 0.7rem;
+    }
+
+    .back-txt {
+        font-size: 0.7rem;
+    }
+    
+    .final {
+        margin-left: -22px;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+    .house {
+        margin-left: 224px;
+        width: 50%;
+        margin-top: 80px;
+    }
+
+    .row2 {
+        width: 160%;
+    }
+
+    .overlay2 {
+        width: 160%;
+    }
+
+    .form2 {
+        margin-left: 26px;
+    }
+
+    .log-head {
+        font-size: 1.5rem;
+        margin-left: -5px;
+    }
+
+    .label2 {
+        font-size: 0.7rem;
+    }
+
+    .logibt {
+        margin-left: 38px;
+        font-size: 0.9rem;
+    }
+
+    .fin-text {
+        font-size: 0.7rem;
+    }
+
+    .fin-reg {
+        font-size: 0.7rem;
+    }
+
+    .prev {
+        margin-left: 79px;
+    }
+
+    .prev-btn {
+        font-size: 0.7rem;
+    }
+
+    .back-txt {
+        font-size: 0.7rem;
+    }
+    
+    .final {
+        margin-left: -19px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+    .house {
+        margin-left: 227px;
+        width: 50%;
+        margin-top: 80px;
+    }
+
+    .row2 {
+        width: 160%;
+    }
+
+    .overlay2 {
+        width: 160%;
+    }
+
+    .form2 {
+        margin-left: 29px;
+    }
+
+    .log-head {
+        font-size: 1.5rem;
+        margin-left: -5px;
+    }
+
+    .label2 {
+        font-size: 0.7rem;
+    }
+
+    .logibt {
+        margin-left: 42px;
+        font-size: 0.9rem;
+    }
+
+    .fin-text {
+        font-size: 0.7rem;
+    }
+
+    .fin-reg {
+        font-size: 0.7rem;
+    }
+
+    .prev {
+        margin-left: 112px;
+    }
+
+    .prev-btn {
+        font-size: 0.7rem;
+    }
+
+    .back-txt {
+        font-size: 0.7rem;
+    }
+    
+    .final {
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+    .house {
+        margin-left: 237px;
+        width: 50%;
+        margin-top: 110px;
+    }
+
+    .row2 {
+        width: 160%;
+    }
+
+    .overlay2 {
+        width: 160%;
+    }
+
+    .form2 {
+        margin-left: 52px;
+    }
+
+    .log-head {
+        font-size: 1.9rem;
+        margin-left: -5px;
+    }
+
+    .label2 {
+        font-size: 1rem;
+    }
+
+    .logibt {
+        margin-left: 75px;
+        font-size: 1.1rem;
+    }
+
+    .fin-text {
+        font-size: 1rem;
+    }
+
+    .fin-reg {
+        font-size: 1rem;
+    }
+
+    .prev {
+        margin-left: 266px;
+    }
+
+    .prev-btn {
+        font-size: 1rem;
+    }
+
+    .back-txt {
+        font-size: 1rem;
+    }
+    
+    .final {
+        margin-left: 8px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .house {
+        margin-left: 252px;
+        width: 50%;
+        margin-top: 160px;
+    }
+
+    .row2 {
+        width: 160%;
+    }
+
+    .overlay2 {
+        width: 160%;
+    }
+
+    .form2 {
+        margin-left: 70px;
+    }
+
+    .log-head {
+        font-size: 2.6rem;
+        margin-left: -5px;
+    }
+
+    .label2 {
+        font-size: 1.4rem;
+    }
+
+    .logibt {
+        margin-left: 100px;
+        font-size: 1.6rem;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
+    input::placeholder {
+        font-size: 1.3rem;
+    }
+
+    .fin-text {
+        font-size: 1.4rem;
+    }
+
+    .fin-reg {
+        font-size: 1.4rem;
+    }
+
+    .prev {
+        margin-left: 346px;
+    }
+
+    .prev-btn {
+        font-size: 1.4rem;
+    }
+
+    .back-txt {
+        font-size: 1.4rem;
+    }
+    
+    .final {
+        margin-left: 23px;
+        margin-top: 8px;
+    }
+}

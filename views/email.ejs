@@ -1,73 +1,73 @@
 <section>
 <div class="container">
-    <div style="display: flex; margin-top: -130px; position: relative; margin-left: 260px;">
-        <img src="/images/vmario-logo.jpeg" style="width: 14%; height: 11vh; margin-top: 24px; margin-right: 10px; border-radius: 10px;">
-        <h1 class="mt-4" style="color: black; font-size: 3rem; font-family: 'Lobster', cursive;">Via Mario</h1>
+    <div class="elogo">
+        <img class="elogo-img" src="/images/vmario-logo.jpeg">
+        <h1 class="elogo-txt mt-4">Via Mario</h1>
     </div>
-    <p style="font-style: italic; font-weight: bold; margin-top: -20px; color: black; margin-left: 355px; position: relative;">Simply the best!</p>
-    <div style="font-size: 1.1rem; font-weight: bold; margin-top: 30px; margin-left: 198px; position: relative;">Place your Order by following the steps below:</div>
-    <div style="font-weight: bold; margin-top: 25px; margin-left: 65px; font-size: 17px">Step 1: Fill your Order details in the form below.</div>   
-    <form action="https://formspree.io/f/xbjwdlno" method="POST" style="margin-top: 30px; margin-left: 65px;">
+    <p class="ply">Simply the best!</p>
+    <div class="plc">Place your Order by following the steps below:</div>
+    <div class="stepdet">Step 1: Fill your Order details in the form below.</div>   
+    <form class="email-frm" action="https://formspree.io/f/xbjwdlno" method="POST">
         <div class="form-group">
-            <label for="FirstName">First Name</label>
+            <label class="one" for="FirstName">First Name</label>
             <input type="text" id="firstName" name="First Name">
         </div>
         <div class="form-group">
-            <label for="Last Name">Last Name</label>
+            <label class="two" for="Last Name">Last Name</label>
             <input type="text" id="lastName" name="Last Name">
         </div>
         <div class="form-group">
-            <label for="Email">Email Address</label>
+            <label class="three" for="Email">Email Address</label>
             <input type="email" id="email" name="Email">
         </div>
         <div class="form-group">
-            <label for="Order">Your Order (Name of product you want)</label>
+            <label class="four" for="Order">Your Order (Name of product you want)</label>
             <input type="text" id="order" name="Order">
         </div>
         <div class="form-group">
-            <label for="Details">Details of your Order (e.g size, color etc)</label>
+            <label class="five" for="Details">Details of your Order (e.g size, color etc)</label>
             <textarea name="Order Details" id="details" cols="30" rows="10"></textarea>
         </div>
         <div class="form-group">
-            <label for="Address">Delivery Address</label>
+            <label class="six" for="Address">Delivery Address</label>
             <input type="text" id="address" name="Address">
         </div>
         <div class="form-group">
-            <label for="Phone">Phone Number</label>
+            <label class="seven" for="Phone">Phone Number</label>
             <input type="text" id="phone" name="Phone Number">
         </div>
         <div class="form-group">
-            <label for="Information">Any Additional Information?</label>
+            <label class="eight" for="Information">Any Additional Information?</label>
             <textarea name="Additional Information" id="info" cols="30" rows="10"></textarea>
         </div>
-        <button type="submit">Submit</button>
+        <button class="email-sub">Submit</button>
     </form>
     <div id="status"></div>
-    <div style="font-weight: bold; margin-top: 25px; margin-left: 65px; font-size: 17px">Step 2: Make your online payment by clicking the button below:</div>
-    <button type="button1"><a href="https://paystack.com/pay/lj77ivdl2h" style="color: white; text-decoration: none;">Buy Now</a></button>
-    <div style="font-weight: bold; margin-top: 70px; margin-left: 65px; font-size: 17px">Step 3: Tell us whether or not you have received your delivery.</div>   
-    <form action="https://formspree.io/f/xbjwdlno" method="POST" style="margin-top: 30px; margin-left: 65px;">
+    <div class="on-pay">Step 2: Make your online payment by clicking the button below:</div>
+    <button class="py-btnl"><a href="https://paystack.com/pay/lj77ivdl2h">Buy Now</a></button>
+    <div class="recv">Step 3: Tell us whether or not you have received your delivery.</div>   
+    <form class="feedback-txt" action="https://formspree.io/f/xbjwdlno" method="POST">
         <div class="form-group">
-            <label for="FirstName">Was your delivery successful (Yes/No)?</label>
+            <label class="nine" for="FirstName">Was your delivery successful (Yes/No)?</label>
             <input type="text" id="delivery" name="Was your delivery successful?">
         </div>
         <div class="form-group">
-            <label for="Order">Your Order (Name of product you ordered for)</label>
+            <label class="ten" for="Order">Your Order (Name of product you ordered for)</label>
             <input type="text" id="order" name="Order">
         </div>
         <div class="form-group">
-            <label for="Email">Email Address</label>
+            <label class="eleven" for="Email">Email Address</label>
             <input type="email" id="email" name="Email">
         </div>
         <div class="form-group">
-            <label for="Address">Delivery Address</label>
+            <label class="twelve" for="Address">Delivery Address</label>
             <input type="text" id="address" name="Address">
         </div>
         <div class="form-group">
-            <label for="Phone">Phone Number</label>
+            <label class="thirteen" for="Phone">Phone Number</label>
             <input type="text" id="phone" name="Phone Number">
         </div>
-        <button type="submit">Submit</button>
+        <button class="feedback-sub">Submit</button>
     </form> 
 </div>
 </section>
