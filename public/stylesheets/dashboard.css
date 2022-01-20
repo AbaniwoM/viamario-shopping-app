@@ -880,7 +880,7 @@
     }
 }
 
-@media (max-width: 375px) and (min-width: 321px) {
+@media (max-width: 374px) and (min-width: 321px) {
     .dash-cover {
         width: 128%;
         overflow-x: hidden;
@@ -1118,7 +1118,246 @@
     }
 }
 
-@media (max-width: 425px) and (min-width: 376px) {
+@media (max-width: 375px) and (min-width: 375px) {
+    .dash-cover {
+        width: 128%;
+        overflow-x: hidden;
+    }
+
+    .art {
+        margin-left: 170px;
+        position: fixed;
+    }
+
+    .banner {
+        font-size: 1.1rem;
+        width: 25%;
+        height: 8vh;
+        margin-right: 6px;
+    }
+
+    .pln {
+        font-size: 1.1rem;
+        width: 25%;
+        height: 8vh;
+        margin-right: 6px;
+    }
+
+    .best {
+        font-size: 0.7rem;
+        margin-top: 59px;
+        margin-left: 220px;
+    }
+    
+    .dabest {
+        font-size: 0.7rem;
+        margin-top: -23px;
+        margin-left: 137px;
+    }
+
+    .mali {
+        font-size: 0.8rem;
+        margin-left: 100px;
+    }
+
+    .mailbx {
+        font-size: 0.8rem;
+    }
+
+    .numi {
+        font-size: 0.8rem;
+        margin-left: 100px;
+        margin-top: 8px;
+    }
+
+    .numic {
+        font-size: 0.8rem;
+    }
+
+    .adres {
+        font-size: 0.8rem;
+        margin-left: 112px;
+        margin-top: 8px;
+        text-align: center;
+        width: 62%;
+    }
+
+    .adresic {
+        font-size: 0.8rem;
+        margin-left: -8px;
+        position: absolute;
+    }
+
+    .yright {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 60%;
+        margin-left: 100px;
+    }
+
+    .foot {
+        margin-left: 175px;
+        position: relative;
+    }
+
+    .foot h1 {
+        font-size: 0.8rem;
+    }
+
+    .vee {
+        margin-left: 120px;
+    }
+
+    .top-head {
+        display: flex;
+        flex-direction: column;
+        width: 138%;
+        height: 25vh;
+        position: fixed;
+        overflow-y: hidden;
+    }
+
+    .footee {
+        position: relative;
+        overflow-x: hidden;
+        margin-top: 90px;
+    }
+
+    .user-icon {
+        margin-left: 170px;
+        margin-top: 96px;
+        font-size: 1.6rem;
+    }
+
+    .logos {
+        font-size: 1.8rem;
+    }
+    
+    .vtext {
+        font-size: 1.8rem;
+    }
+
+    .welcome-name {
+        margin-left: 207px;
+        margin-top: 93px;
+        font-size: 0.9rem;
+        position: fixed;
+    }
+
+    .out-btn {
+        margin-left: 350px;
+        margin-top: 97px;
+        width: 24%;
+        height: 6vh;
+        position: fixed;
+    }
+
+    .dash h1 {
+        font-size: 12px;
+        margin-top: 90px;
+    }
+
+    .good h1 {
+        font-size: 12px;
+        margin-top: 46px;
+
+    }
+
+    .shop h1 {
+        font-size: 12px;
+        margin-top: 68px;
+    }
+
+    .back-style {
+        width: 82%;
+        background-position: center;
+    }
+
+    .our-prod {
+        margin-left: 226px;
+        margin-top: 45px;
+        font-size: 1.4rem;
+    }
+
+    .bord {
+        margin-left: 228px;
+        border-bottom: 3px solid white;
+    }
+
+    .foot-cat {
+        font-size: 0.9rem;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+    
+    .pef-cat {
+        font-size: 0.9rem;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+
+    .ft {
+        font-size: 1.1rem;
+    }
+
+    .perf {
+        font-size: 1.1rem;
+    }
+
+    .wear {
+        margin-top: 3px;
+    }
+
+    .lin {
+        margin-left: 132px;
+        width: 3%;
+        border-bottom: 3px solid white;
+    }
+
+    .srpt {
+        margin-left: 132px;
+        width: 3%;
+        border-bottom: 3px solid white;
+    }
+
+    .item {
+        width: 92%;
+        margin-left: 20px;
+    }
+
+    .foot-row {
+        position: relative;
+        left: 120px;
+        padding-right: 150px;
+    }
+
+    .perfume-row {
+        position: relative;
+        left: 120px;
+        padding-right: 150px;
+    }
+
+    .make {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .size {
+        margin-top: 10px;
+    }
+
+    .ftwr {
+        margin-left: -15px;
+        position: relative;
+    }
+
+    .hsh {
+        margin-left: 92px;
+        position: relative;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 389px) {
     .dash-cover {
         width: 124%;
         overflow-x: hidden;
@@ -1212,7 +1451,7 @@
         display: flex;
         flex-direction: column;
         width: 138%;
-        height: 40vh;
+        height: 20vh;
         position: fixed;
         overflow-y: hidden;
     }
@@ -1334,6 +1573,486 @@
         position: relative;
         left: 120px;
         padding-right: 150px;
+    }
+
+    .make {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .size {
+        margin-top: 10px;
+    }
+
+    .ftwr {
+        margin-left: -15px;
+        position: relative;
+    }
+
+    .hsh {
+        margin-left: 92px;
+        position: relative;
+    }
+}
+
+@media (max-width: 391px) and (min-width: 376px) {
+    .dash-cover {
+        width: 124%;
+        overflow-x: hidden;
+    }
+
+    .art {
+        margin-left: 170px;
+        position: fixed;
+    }
+
+    .banner {
+        font-size: 1.1rem;
+        width: 25%;
+        height: 8vh;
+        margin-right: 6px;
+    }
+
+    .pln {
+        font-size: 1.1rem;
+        width: 25%;
+        height: 8vh;
+        margin-right: 6px;
+    }
+
+    .best {
+        font-size: 0.7rem;
+        margin-top: 59px;
+        margin-left: 220px;
+    }
+    
+    .dabest {
+        font-size: 0.7rem;
+        margin-top: -13px;
+        margin-left: 137px;
+    }
+
+    .mali {
+        font-size: 0.8rem;
+        margin-left: 100px;
+    }
+
+    .mailbx {
+        font-size: 0.8rem;
+    }
+
+    .numi {
+        font-size: 0.8rem;
+        margin-left: 100px;
+        margin-top: 8px;
+    }
+
+    .numic {
+        font-size: 0.8rem;
+    }
+
+    .adres {
+        font-size: 0.8rem;
+        margin-left: 112px;
+        margin-top: 8px;
+        text-align: center;
+        width: 62%;
+    }
+
+    .adresic {
+        font-size: 0.8rem;
+        margin-left: -16px;
+        position: absolute;
+    }
+
+    .yright {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 60%;
+        margin-left: 100px;
+    }
+
+    .foot {
+        margin-left: 185px;
+        position: relative;
+    }
+
+    .foot h1 {
+        font-size: 0.9rem;
+    }
+
+    .vee {
+        margin-left: 120px;
+    }
+
+    .top-head {
+        display: flex;
+        flex-direction: column;
+        width: 138%;
+        height: 20vh;
+        position: fixed;
+        overflow-y: hidden;
+    }
+
+    .footee {
+        position: relative;
+        overflow-x: hidden;
+        margin-top: 90px;
+    }
+
+    .user-icon {
+        margin-left: 170px;
+        margin-top: 96px;
+        font-size: 1.6rem;
+    }
+
+    .logos {
+        font-size: 1.8rem;
+    }
+    
+    .vtext {
+        font-size: 1.8rem;
+    }
+
+    .welcome-name {
+        margin-left: 207px;
+        margin-top: 93px;
+        font-size: 0.9rem;
+        position: fixed;
+    }
+
+    .out-btn {
+        margin-left: 350px;
+        margin-top: 97px;
+        width: 28%;
+        position: fixed;
+    }
+
+    .dash h1 {
+        font-size: 14px;
+        margin-top: 90px;
+    }
+
+    .good h1 {
+        font-size: 14px;
+        margin-top: 46px;
+
+    }
+
+    .shop h1 {
+        font-size: 14px;
+        margin-top: 68px;
+    }
+
+    .back-style {
+        width: 87%;
+        background-position: center;
+    }
+
+    .our-prod {
+        margin-left: 246px;
+        margin-top: 45px;
+        font-size: 1.4rem;
+    }
+
+    .bord {
+        margin-left: 248px;
+        border-bottom: 3px solid white;
+    }
+
+    .foot-cat {
+        font-size: 0.9rem;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+    
+    .pef-cat {
+        font-size: 0.9rem;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+
+    .ft {
+        font-size: 1.1rem;
+    }
+
+    .perf {
+        font-size: 1.1rem;
+    }
+
+    .wear {
+        margin-top: 3px;
+    }
+
+    .lin {
+        margin-left: 132px;
+        width: 3%;
+        border-bottom: 3px solid white;
+    }
+
+    .srpt {
+        margin-left: 132px;
+        width: 3%;
+        border-bottom: 3px solid white;
+    }
+
+    .item {
+        width: 92%;
+        margin-left: 20px;
+    }
+
+    .foot-row {
+        position: relative;
+        left: 120px;
+        padding-right: 150px;
+    }
+
+    .perfume-row {
+        position: relative;
+        left: 120px;
+        padding-right: 150px;
+    }
+
+    .make {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .size {
+        margin-top: 10px;
+    }
+
+    .ftwr {
+        margin-left: -15px;
+        position: relative;
+    }
+
+    .hsh {
+        margin-left: 92px;
+        position: relative;
+    }
+}
+
+
+@media (max-width: 390px) and (min-width: 390px) {
+    .dash-cover {
+        width: 124%;
+        overflow-x: hidden;
+    }
+
+    .art {
+        margin-left: 170px;
+        position: fixed;
+    }
+
+    .banner {
+        font-size: 1.1rem;
+        width: 25%;
+        height: 6vh;
+        margin-right: 6px;
+    }
+
+    .pln {
+        font-size: 1.1rem;
+        width: 25%;
+        height: 6vh;
+        margin-right: 6px;
+    }
+
+    .best {
+        font-size: 0.7rem;
+        margin-top: 59px;
+        margin-left: 220px;
+    }
+    
+    .dabest {
+        font-size: 0.7rem;
+        margin-top: -18px;
+        margin-left: 137px;
+    }
+
+    .mali {
+        font-size: 0.8rem;
+        margin-left: 100px;
+    }
+
+    .mailbx {
+        font-size: 0.8rem;
+    }
+
+    .numi {
+        font-size: 0.8rem;
+        margin-left: 100px;
+        margin-top: 8px;
+    }
+
+    .numic {
+        font-size: 0.8rem;
+    }
+
+    .adres {
+        font-size: 0.8rem;
+        margin-left: 112px;
+        margin-top: 8px;
+        text-align: center;
+        width: 62%;
+    }
+
+    .adresic {
+        font-size: 0.8rem;
+        margin-left: -6px;
+        position: absolute;
+    }
+
+    .yright {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 60%;
+        margin-left: 100px;
+    }
+
+    .foot {
+        margin-left: 171px;
+        position: relative;
+    }
+
+    .foot h1 {
+        font-size: 0.9rem;
+    }
+
+    .vee {
+        margin-left: 120px;
+    }
+
+    .top-head {
+        display: flex;
+        flex-direction: column;
+        width: 138%;
+        height: 20vh;
+        position: fixed;
+        overflow-y: hidden;
+    }
+
+    .footee {
+        position: relative;
+        overflow-x: hidden;
+        margin-top: 90px;
+    }
+
+    .user-icon {
+        margin-left: 170px;
+        margin-top: 99px;
+        font-size: 1.6rem;
+    }
+
+    .logos {
+        font-size: 1.8rem;
+    }
+    
+    .vtext {
+        font-size: 1.8rem;
+    }
+
+    .welcome-name {
+        margin-left: 207px;
+        margin-top: 96px;
+        font-size: 0.9rem;
+        position: fixed;
+    }
+
+    .out-btn {
+        margin-left: 350px;
+        margin-top: 100px;
+        padding-top: 5px;
+        width: 28%;
+        height: 5vh;
+        position: fixed;
+    }
+
+    .dash h1 {
+        font-size: 12px;
+        margin-top: 90px;
+    }
+
+    .good h1 {
+        font-size: 12px;
+        margin-top: 46px;
+
+    }
+
+    .shop h1 {
+        font-size: 12px;
+        margin-top: 68px;
+    }
+
+    .back-style {
+        width: 87%;
+        background-position: center;
+    }
+
+    .our-prod {
+        margin-left: 246px;
+        margin-top: -70px;
+        font-size: 1.4rem;
+    }
+
+    .bord {
+        margin-left: 248px;
+        border-bottom: 3px solid white;
+    }
+
+    .foot-cat {
+        font-size: 0.9rem;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+    
+    .pef-cat {
+        font-size: 0.9rem;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+
+    .ft {
+        font-size: 1.1rem;
+    }
+
+    .perf {
+        font-size: 1.1rem;
+    }
+
+    .wear {
+        margin-top: 3px;
+    }
+
+    .lin {
+        margin-left: 132px;
+        width: 3%;
+        border-bottom: 3px solid white;
+    }
+
+    .srpt {
+        margin-left: 132px;
+        width: 3%;
+        border-bottom: 3px solid white;
+    }
+
+    .item {
+        width: 94%;
+        margin-left: 35px;
+        padding: 70px;
+    }
+
+    .foot-row {
+        position: relative;
+        left: 105px;
+        padding-right: 135px;
+    }
+
+    .perfume-row {
+        position: relative;
+        left: 105px;
+        padding-right: 135px;
     }
 
     .make {

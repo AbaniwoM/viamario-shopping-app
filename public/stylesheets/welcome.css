@@ -280,7 +280,7 @@ body {
         font-size: 2rem;
         margin-top: 23px;
         width: 100%;
-        margin-left: -7px;
+        margin-left: -15px;
     }
 
     .logo {
@@ -290,7 +290,7 @@ body {
     .simply {
         font-size: 0.7rem;
         margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 25px;
     }
 
     .login {
@@ -343,7 +343,7 @@ body {
 
 @media (max-width: 425px) and (min-width: 376px) {
     .cardbox {
-        margin-left: -170px;
+        margin-left: -158px;
         width: 80%;
         margin-top: 58px;
     }
@@ -352,7 +352,7 @@ body {
         font-size: 2rem;
         margin-top: 23px;
         width: 100%;
-        margin-left: -7px;
+        margin-left: -12px;
     }
 
     .logo {
@@ -362,7 +362,7 @@ body {
     .simply {
         font-size: 0.7rem;
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 60px;
     }
 
     .login {
@@ -373,7 +373,7 @@ body {
 
     .line {
         margin-top: 340px;
-        margin-left: 0px;
+        margin-left: -10px;
         width: 23.5em;
     }
 
